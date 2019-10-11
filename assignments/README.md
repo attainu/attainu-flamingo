@@ -26,3 +26,11 @@ Remember to change your default branch to `dev` before proceeding.
 > Solution session: _day-1_
 >
 > Due day: _day-1_
+### Weekly Test: Create an html document which looks like the provided image
+![union territories](images/union-territories.png)
+
+1. You have to use the exact tags as mentioned in the screenshot below.
+2. Put your files under `assignments` > `week01` > `weekly-test`.
+
+
+> Due day: _day-3_
