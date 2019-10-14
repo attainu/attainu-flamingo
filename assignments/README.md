@@ -34,3 +34,16 @@ Remember to change your default branch to `dev` before proceeding.
 
 
 > Due day: _day-3_
+----------
+## Week 2
+
+### Day 1: Create a webpage about yourself
+
+1. Create a page about you with `html` and `css` having:
+    1. A heading with your name.
+    2. A short paragraph about you.
+    3. A list of your favourite movies.
+2. Put your files under `assignments` > `week02` > `day01`.
+
+> Solution session: _day-0_
+>
