@@ -47,3 +47,16 @@ Remember to change your default branch to `dev` before proceeding.
 
 > Solution session: _day-0_
 >
+### Day 2: Create a webmail page
+![webmail](images/webmail.png)
+
+1. Create a webmail page which has three sections:
+    1. The left one is for navigation and contains links for Inbox, Sent, Drafts & Trash. You can use an un-ordered list to do that.
+    2. The right box is a table of emails with coloumns for From, Subject & Date.
+    3. The bottom one is for placing ads.
+2. You can use sizes, colors, fonts, etc according to your choice.
+3. Put your files under `assignments` > `week02` > `day02`.
+
+> Solution session: _day-0_
+>
+> Due day: _day-0_
