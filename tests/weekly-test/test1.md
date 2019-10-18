@@ -4,7 +4,7 @@
 
 1. Fixed header with LOGO text at the left
 2. A search box with a header text, 4 input fields and a button. Last 2 input fields should allow the user to select dates from calender.
-3. The reslt box with a header text, all the dates within the date range they have selected and the search results.
+3. The result box with a header text, all the dates within the date range they have selected and the search results.
 
 4. There should be at least 7 search results along with details as mentioned below.
 
