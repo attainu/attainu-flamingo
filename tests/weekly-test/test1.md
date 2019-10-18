@@ -1,6 +1,6 @@
 # Weekly test - week 2 description
 
-(vst_test1.png)
+!(vst_test1.png)
 
 1. Fixed header with LOGO text at the left
 2. A search box with a header text, 4 input fields and a button. Last 2 input fields should allow the user to select dates from calender.
