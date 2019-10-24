@@ -83,7 +83,7 @@ Contact Us page
 
 ### Day 5: Even numbers in descending order
 
-1. Write a Javascript function that displays even numbers in descending order.
+1. Write program in Javascript that displays even numbers in descending order.
 2. Start from `100` and end at `2`.
 3. Sample output:
 ```
