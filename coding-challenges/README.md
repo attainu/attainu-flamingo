@@ -6,9 +6,9 @@
 1. Start from `99` and end at `1`.
 2. Sample output:
 ```
-100
-98
-96
+99
+97
+95
 .
 .
 .
