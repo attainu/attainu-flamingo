@@ -79,3 +79,25 @@ Contact Us page
 > Solution session: _day-0_
 >
 > Due day: _day-0_
+
+
+### Day 5: Even numbers in descending order
+
+1. Write a Javascript function that displays even numbers in descending order.
+2. Start from `100` and end at `2`.
+3. Sample output:
+```
+100
+98
+96
+.
+.
+.
+2
+```
+4. No HTML or CSS required.
+5. Put your file under `assignments` > `week03` > `day04`.
+
+> Solution session: _day-0_
+>
+> Due day: _day-0_
