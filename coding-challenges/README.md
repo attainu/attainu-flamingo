@@ -1,4 +1,4 @@
-#coding challenge description
+# Coding challenge description
 
 ## Write a Javascript program that prints odd numbers from 1 to 100 in descending order.
 
