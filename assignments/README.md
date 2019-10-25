@@ -81,7 +81,7 @@ Contact Us page
 > Due day: _day-0_
 
 
-### Day 5: Even numbers in descending order
+### Day 4: Even numbers in descending order
 
 1. Write program in Javascript that displays even numbers in descending order.
 2. Start from `100` and end at `2`.
@@ -97,6 +97,24 @@ Contact Us page
 ```
 4. No HTML or CSS required.
 5. Put your file under `assignments` > `week03` > `day04`.
+
+> Solution session: _day-0_
+>
+> Due day: _day-0_
+
+### Day 5: Print multiplication tables
+
+Write a Javascript program that prints multiplication table of 5 from 1 to 10.
+```
+5 * 1 = 5
+5 * 2 = 10
+.
+.
+.
+5 * 10 = 50
+```
+4. No HTML or CSS required.
+5. Put your files under `assignments` > `week03` > `day05`.
 
 > Solution session: _day-0_
 >
