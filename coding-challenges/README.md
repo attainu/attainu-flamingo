@@ -22,7 +22,7 @@
 **Note:** Two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal. In other words, two arrays are equal if they contain the same elements in the same order. 
 
 
-### Write a function to take a string as input and change each letter to the next letter in the alphabet.
+### Write a program to take a string as input and change each letter to the next letter in the alphabet.
 
 
 ```
