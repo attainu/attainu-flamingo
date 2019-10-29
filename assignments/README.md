@@ -122,7 +122,7 @@ Write a Javascript program that prints multiplication table of 5 from 1 to 10.
 
 ## Week 4
 
-### Write a Javascript function that takes an array and a value and search that value in the array.
+### Day 01:Write a Javascript function that takes an array and a value and search that value in the array.
 
 1. Function should take two arguments - an array and a value to search inside the array.
 2. If the element is found, the function should return the position of the element in an array.
