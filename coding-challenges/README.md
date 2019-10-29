@@ -32,3 +32,20 @@ Output: "ifmmp"
 Input: "zeta"
 Output: "afub"
 ```
+## Day 01 Week 04
+
+#### Star Pattern using Javascript
+
+Write a Javascript function that produces a star pattern likes this.
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
