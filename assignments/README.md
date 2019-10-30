@@ -127,3 +127,7 @@ Write a Javascript program that prints multiplication table of 5 from 1 to 10.
 1. Function should take two arguments - an array and a value to search inside the array.
 2. If the element is found, the function should return the position of the element in an array.
 3. If the element is not found, the function should return "-1".
+
+### Day 02: Create a HTML page with a button that should alert a message when it is clicked
+
+1. Use JS event handler for receiving the click event
