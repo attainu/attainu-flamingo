@@ -49,3 +49,18 @@ Write a Javascript function that produces a star pattern likes this.
 **
 *
 ```
+
+## Day 02 Week 04
+
+#### Multile Javascript File Linking
+
+
+Create three Javascript files - 
+
+1. `even.js` containing `evenFunction()` that returns if a number is even or not.
+
+2. `odd.js` containing `oddFunction()` that returns if a number is odd or not.
+
+3. `square.js` containing `squareFunction()` that returns if a number is square or not.
+
+And now create a `main.js` file that calls all these functions with sample input and `console.log` their outputs.
