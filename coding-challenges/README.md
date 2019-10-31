@@ -64,3 +64,12 @@ Create three Javascript files -
 3. `square.js` containing `squareFunction()` that returns if a number is square or not.
 
 And now create a `main.js` file that calls all these functions with sample input and `console.log` their outputs.
+
+## Day 03 Week 04
+### Create a Javascript app that emulates "Stack" behavior.
+![stack](images/stack.PNG)
+1. Push button should add value in the textbox to stack.
+2. Pop button should remove the last element added to stack.
+3. There should be validation for push button. Empty values should not be added to stack.
+4. Array can be used as a stack along with push() and pop() methods.
+5. During each operation, the stack display area should show the current stack contents.
