@@ -131,3 +131,8 @@ Write a Javascript program that prints multiplication table of 5 from 1 to 10.
 ### Day 02: Create a HTML page with a button that should alert a message when it is clicked
 
 1. Use JS event handler for receiving the click event
+
+### Day 03: Create a simple calculator using JS with the UI looking like this -
+![calculator](../images/calculator.png)
+1. Use inputs of type number.
+2. Use functions as and when necessary.
