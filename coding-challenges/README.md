@@ -67,7 +67,7 @@ And now create a `main.js` file that calls all these functions with sample input
 
 ## Day 03 Week 04
 ### Create a Javascript app that emulates "Stack" behavior.
-![stack](images/stack.PNG)
+![stack](images/stack.png)
 1. Push button should add value in the textbox to stack.
 2. Pop button should remove the last element added to stack.
 3. There should be validation for push button. Empty values should not be added to stack.
