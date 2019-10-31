@@ -136,4 +136,4 @@ Write a Javascript program that prints multiplication table of 5 from 1 to 10.
 ![calculator](images/calculator.png)
 1. Use inputs of type number.
 2. Use functions as and when necessary.
-3.Put your files under assignments > week04 > day03.
+3. Put your files under assignments > week04 > day03.
