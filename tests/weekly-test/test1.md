@@ -1,5 +1,6 @@
 # Weekly test - week 2 description
 
+
 ![enter image description here](vst_test1.png)
 
 1. Fixed header with LOGO text at the left
@@ -15,3 +16,11 @@
 7. Fixed Footer at the bottom
 
 8. Upload this assignment in the week 2 / weekly-test folder 
+
+# Weekly test - week 4 description
+![enter image description here](week4_test.png)
+1. Create 4 inputs for firstname,lastname, email and phone
+2. Create a button and listen for onclick to fetch the values from the text boxes
+3. Create a function to store the values in an array 
+4. Create a table with headers as firstname,lastname,email and phone
+5. Create another function to append a new row dynamically to the table when a new set of values are saved from the front end
