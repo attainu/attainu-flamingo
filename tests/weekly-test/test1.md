@@ -19,9 +19,12 @@
 
 # Weekly test - week 4 description
 ![enter image description here](week4_test.png)
-1. Create 4 inputs for firstname,lastname, email and phone
-2. Create a button and listen for onclick to fetch the values from the text boxes
-3. Create a function to store the values in an array 
-4. Create a table with headers as firstname,lastname,email and phone
-5. Create another function to append a new row dynamically to the table when a new set of values are saved from the front end
-6. No styling is needed
+1. All the below mentioned elements need to be created using javascript dynamically. Only body tag will be there inside the HTML file.
+2. Create 4 inputs for firstname,lastname, email and phone.
+3. Create a button and listen for onclick to fetch the values from the text boxes.
+4. Create a function to store the values in an array.
+5. Create a table with headers as firstname,lastname,email and phone.
+6. Create another function to append a new row dynamically to the table when a new set of values are saved from the front end.
+7. No styling is needed.
+
+
