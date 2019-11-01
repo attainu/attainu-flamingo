@@ -24,3 +24,4 @@
 3. Create a function to store the values in an array 
 4. Create a table with headers as firstname,lastname,email and phone
 5. Create another function to append a new row dynamically to the table when a new set of values are saved from the front end
+6. No styling is needed
