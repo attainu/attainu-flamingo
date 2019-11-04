@@ -1,0 +1,11 @@
+$('h1').text()
+$('h1').html()
+$("p").css("background-color");
+$("p").css("background-color", "yellow");
+$("ul").text()
+$("li > ul")
+$("div[p]")
+$("li:last")
+$("li:first-child")
+$("li:last-child")
+$("ul li:first")
