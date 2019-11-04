@@ -2,7 +2,11 @@ $('h1').text()
 $('h1').html()
 $("p").css("background-color");
 $("p").css("background-color", "yellow");
+$("p").css("border", "1px solid");
+$('#secondPara').css('border','1px solid');
+$('#secondPara').css('padding','10px');
 $("ul").text()
+$('ul li strong').eq(0).html()
 $("li > ul")
 $("div[p]")
 $("li:last")
