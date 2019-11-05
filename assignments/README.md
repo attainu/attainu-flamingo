@@ -137,3 +137,11 @@ Write a Javascript program that prints multiplication table of 5 from 1 to 10.
 1. Use inputs of type number.
 2. Use functions as and when necessary.
 3. Put your files under assignments > week04 > day03.
+
+## Week 5
+### Day 02: Making all tds of a table change color when mouseover and return to original on mouseout using jquery
+
+1. Create a table with 4 columns with header elements and 5 rows using append / prepend.
+2. Handle the mouseout/ mouseover events using eventlistener.
+3. Change the color of the td to blue based on mouseover and return it back to it's original color on mouseout.
+
