@@ -13,3 +13,31 @@ $("li:last")
 $("li:first-child")
 $("li:last-child")
 $("ul li:first")
+$('p').append('text')
+$('p').append('<h5>Introduction</h5>') appending at the end
+$('p').prepend('<h5>Introduction</h5>') appending at the beginning
+var newelem = $('<p class="pclass"></p>').text('also known as the tricolor')
+$('h1').append(newelem)
+$('h1').prepend(newelem)
+$('.pclass').css('background-color',"green")
+$('h1 p').remove()
+$('body').append('<table border><tr></tr><tr></tr></table>')
+$('tr').append('<td>Apple</td>')
+
+$('img').on('click',function(){
+
+	alert('Republic day around the corner');
+})
+
+function showalert(){
+	alert('Hello again')
+}
+
+$('h1').on('click',showalert)
+
+
+$('h1').off('click')
+
+$('li').on('mouseover',function(){
+	$(this).css('color','blue')
+})
