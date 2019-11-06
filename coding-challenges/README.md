@@ -73,3 +73,10 @@ And now create a `main.js` file that calls all these functions with sample input
 3. There should be validation for push button. Empty values should not be added to stack.
 4. Array can be used as a stack along with push() and pop() methods.
 5. During each operation, the stack display area should show the current stack contents.
+
+## Day 03 Week 05
+### Create a webpage to load random users from internet.
+![random users](images/random-user-cc.png)
+
+1. The api to fetch random users is https://randomuser.me/api/.
+2. Fetch data from here using ajax and display it on the page as shown in the image.
