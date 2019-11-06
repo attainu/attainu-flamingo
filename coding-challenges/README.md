@@ -79,6 +79,6 @@ And now create a `main.js` file that calls all these functions with sample input
 ![random users](images/random-user-cc.png)
 
 1. The api to fetch random users is https://randomuser.me/api/.
-2. Fetch data from here using ajax and display it on the page as shown in the image.
+2. Fetch all the data as displayed above from the api using ajax and display it on the page as shown in the image.
 3. The user shown in the image may be different but the design should be same.
 4. Use bootstrap to design the page.
