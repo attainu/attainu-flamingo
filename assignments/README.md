@@ -147,4 +147,13 @@ Write a Javascript program that prints multiplication table of 5 from 1 to 10.
 4. Put your files under assignments > week05 > day02.
 
 
+## Week 5 
+### Day 03: The Quiz application in jQuery
 
+The original description of the assignment - 
+
+![quiz](images/quiz.png)
+1. The application should load a random question from the https://api.jsonbin.io/b/5dc2a6f7ce068a7724676fa9 api. Hint - You can use `var randomNumber = Math.floor( Math.random() * 10 )` to get a random number which can be used as an index for the question array.
+2. Once the user types an answer in the textbox and clicks Submit, the app should check whether the answer is correct or not. Show a dialog window (prompt) depening up on the right/wrong answer.
+3. Also, once the page is loaded, a timer should be started from 30 seconds and go down till 0 second. Once the timer reaches 0, the user should be shown a message saying that `Time is over!` and he/she should not be able to submit an answer after that.
+4. For styling and layout, please use Bootstrap.
