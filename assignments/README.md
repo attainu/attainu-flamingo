@@ -80,13 +80,12 @@ Contact Us page
 >
 > Due day: _day-0_
 
+## Week 04 
 
-### Day 4: Even numbers in descending order
+### Day 2
+Write a Javascript program that prints even numbers from 1 to 100 in descending order
+The output should show:
 
-1. Write program in Javascript that displays even numbers in descending order.
-2. Start from `100` and end at `2`.
-3. Sample output:
-```
 100
 98
 96
@@ -94,66 +93,3 @@ Contact Us page
 .
 .
 2
-```
-4. No HTML or CSS required.
-5. Put your file under `assignments` > `week03` > `day04`.
-
-> Solution session: _day-0_
->
-> Due day: _day-0_
-
-### Day 5: Print multiplication tables
-
-Write a Javascript program that prints multiplication table of 5 from 1 to 10.
-```
-5 * 1 = 5
-5 * 2 = 10
-.
-.
-.
-5 * 10 = 50
-```
-4. No HTML or CSS required.
-5. Put your files under `assignments` > `week03` > `day05`.
-
-> Solution session: _day-0_
->
-> Due day: _day-0_
-
-## Week 4
-
-### Day 01:Write a Javascript function that takes an array and a value and search that value in the array.
-
-1. Function should take two arguments - an array and a value to search inside the array.
-2. If the element is found, the function should return the position of the element in an array.
-3. If the element is not found, the function should return "-1".
-
-### Day 02: Create a HTML page with a button that should alert a message when it is clicked
-
-1. Use JS event handler for receiving the click event
-
-### Day 03: Create a simple calculator using JS with the UI looking like this -
-![calculator](images/calculator.png)
-1. Use inputs of type number.
-2. Use functions as and when necessary.
-3. Put your files under assignments > week04 > day03.
-
-## Week 5
-### Day 02: Making all tds of a table change color when mouseover and return to original on mouseout using jquery
-![calculator](images/jquery-table-assignment.png)
-1. Create a table with 4 columns with header elements and 4 rows using append / prepend.
-2. Handle the mouseout/ mouseover events using eventlistener.
-3. Change the color of the td to blue based on mouseover and return it back to it's original color on mouseout.
-4. Put your files under assignments > week05 > day02.
-
-
-### Day 03: The Quiz application in jQuery
-
-The original description of the assignment - 
-
-![quiz](images/quiz.png)
-1. The application should load a random question from the https://api.jsonbin.io/b/5dc2a6f7ce068a7724676fa9 api. Hint - You can use `var randomNumber = Math.floor( Math.random() * 10 )` to get a random number which can be used as an index for the question array.
-2. Once the user types an answer in the textbox and clicks Submit, the app should check whether the answer is correct or not. Show a dialog window (prompt) depening up on the right/wrong answer. 
-3. Also, once the page is loaded, a timer should be started from 30 seconds and go down till 0 second. Once the timer reaches 0, the user should be shown a message saying that `Time is over!` and he/she should not be able to submit an answer after that.
-4. For styling and layout, please use Bootstrap.
-5.Put your files under assignments > week05 > day03.
