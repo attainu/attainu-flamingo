@@ -93,3 +93,19 @@ The output should show:
 .
 .
 2
+
+### Day 3
+Write a Javascript program that prints multiplication table of 5 upto 10.
+The output should show:
+1 * 5 = 5
+2 * 5 = 10
+.
+.
+.
+10 * 5 = 50
+
+### Day 4
+Write a Javascript function that takes an array and a value and search that value in the array.
+Function should take two arguments - an array and a value to search inside the array.
+If the element is found, the function should return the position of the element in an array.
+If the element is not found, the function should return "-1".
