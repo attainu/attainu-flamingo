@@ -116,3 +116,31 @@ If the element is not found, the function should return "-1".
 i) change the text colour of the id root to red
 ii) for the class green-white set the css properties as background colour green and text colour white.
 iii) for p tag which doesn't have any attributes, change the font size to 20px;
+
+### Weekly Test - Week 04 
+var students = [
+    {name: "Divyam", age: 29},
+    {name: "Ansal", age: 28},
+    {name: "Arkesh", age: 27},
+    {name: "Gopi", age: 27},
+    {name: "Nishant", age: 23},
+    {name: "Rabeen", age: 30},
+    {name: "Ruhan", age: 20},
+    {name: "Sadab", age: 21},
+];
+1) Write a function called `filterObjects` which will return array of objects who's age is less than or equal to 25
+    -> No loops, use only predefined functions 
+2) Write a function called `addEmail` to add a new property to each of the object saying email = `name@gmail.com` replace the name with the original name from the object
+    -> Again no loops, use only predefined functions 
+3) Write a function called `sortObjects` to sort the objects by age (Descending Order)
+    -> Use predefined function 
+4) Write a function called addStudent
+    -> Add your details to the array at index 2 
+5) Write a function called `printTriangle` which will accept a number n, print triangular pattern
+    *
+    * * 
+    * * *
+    * * * *
+    * * * * *
+    * * * * * *
+    * * * * * * *
