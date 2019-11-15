@@ -109,3 +109,10 @@ Write a Javascript function that takes an array and a value and search that valu
 Function should take two arguments - an array and a value to search inside the array.
 If the element is found, the function should return the position of the element in an array.
 If the element is not found, the function should return "-1".
+
+### Day 5
+1. create 2 div elements one having id root and another having class green-white and have some text inside.
+2. create 2 p tags one having no attributes to it and another having class green-white and have some text inside.
+i) change the text colour of the id root to red
+ii) for the class green-white set the css properties as background colour green and text colour white.
+iii) for p tag which doesn't have any attributes, change the font size to 20px;

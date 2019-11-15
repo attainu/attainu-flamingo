@@ -23,3 +23,6 @@ Write a for loop that only prints players with rank less than or equal to 10.
 
 ### Day 4
 Write a Javascript program that compares two arrays and print whether they are equal or not.
+
+### Day 5 
+Create a Javascript program that produces a table of numbers from 1 to 10 and squares of them 
