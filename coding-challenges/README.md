@@ -26,3 +26,9 @@ Write a Javascript program that compares two arrays and print whether they are e
 
 ### Day 5 
 Create a Javascript program that produces a table of numbers from 1 to 10 and squares of them 
+
+## Week 05 
+
+### Day 1
+Given a string, write a javascript function to check if it is palindrome or not.
+A string is said to be palindrome if reverse of the string is same as string. For example, “abba” is palindrome, but “abbc” is not palindrome.

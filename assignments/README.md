@@ -144,3 +144,10 @@ var students = [
     * * * * *
     * * * * * *
     * * * * * * *
+
+## Week 05 
+
+### Day 01
+assignments/images/stack-week05-day01
+assignments/images/login-week05-day01
+assignments/images/calculator-week05-day01
