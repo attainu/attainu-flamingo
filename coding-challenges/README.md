@@ -32,3 +32,17 @@ Create a Javascript program that produces a table of numbers from 1 to 10 and sq
 ### Day 1
 Given a string, write a javascript function to check if it is palindrome or not.
 A string is said to be palindrome if reverse of the string is same as string. For example, “abba” is palindrome, but “abbc” is not palindrome.
+
+### Day 2 
+Anagram
+Given 2 strings, find whether one is an anagram of the other.
+Two strings are anagrams if they are written using the same exact letters. Each letter should have the same count in both strings. e.g. 'binary' and 'brainy'
+
+### Day 3 
+Write a function that takes a number input in seconds and returns the number of hours, minutes and seconds as output. Separate the number of hours, minutes and seconds with colons :.
+Input: 126
+Output: "0:2:6"
+Input: 45
+Output: "0:0:45"
+Input: 3700
+Output: "1:1:40"
