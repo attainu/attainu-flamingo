@@ -46,3 +46,10 @@ Input: 45
 Output: "0:0:45"
 Input: 3700
 Output: "1:1:40"
+
+### Day 4 
+Write a function to take a string as input and change each letter to the next letter in the alphabet.
+Input: "hello"
+Output: "ifmmp"
+Input: "zeta"
+Output: "afub"
