@@ -53,3 +53,27 @@ Input: "hello"
 Output: "ifmmp"
 Input: "zeta"
 Output: "afub"
+
+### Day 5
+Create a Javascript function named frequency that takes an array and returns the frequency of each item in the array as an object.
+For example, consider an array named names -
+`let names = ["Ansal", "Vaibhav", "Divyam", "Vaibhav", "Dwarak"];`
+Calling the function with the above array frequency(names) should give -
+{
+    "Ansal": 1,
+    "Vaibhav": 2,
+    "Divyam": 1,
+    "Dwarak": 1
+}
+Another example -
+`let arr = [2, 3, 2, 4, 3, 5, 3];`
+`frequency(arr);`
+The above code should output -
+```
+{
+    2: 2,
+    3: 3,
+    4: 1,
+    5: 1
+}
+```
