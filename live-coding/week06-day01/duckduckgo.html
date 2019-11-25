@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bitcon Value</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="search-query" name="search-query" placeholder="Search...">
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-success" id="search-btn">Search Query</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-2 search-results-text">
+                    Search Results 
+                </div>
+            </div>
+            <div>
+                <ul id="search-results"></ul>
+            </div>
+        </div> 
+    </body>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script>
+        console.log("Hello");
+        $(document).ready(function (){
+            console.log("DOM is ready");
+
+            $("#search-btn").click(function(){
+                var searchQuery = $("#search-query").val();
+                getData(searchQuery);
+                console.log("query: ", searchQuery);
+            })
+        });
+
+        function getData(searchQuery){
+            var url = "https://api.duckduckgo.com/";
+            $.getJSON(url, {
+                q: searchQuery,
+                format: "json",
+                pretty: 1
+            }, function(response){
+                var topics = response.RelatedTopics;
+                topics = topics.filter(function(obj){
+                            return obj.FirstURL && obj.Text
+                        });
+                loadData(topics);
+                console.log("topics: ", topics);
+            });
+        }
+
+        function loadData(data){
+            // <li> 
+                    // <a href="obj.FirstURL" target="_blank">
+                        // obj.Text
+                    // </a>
+            // </li>
+            data.forEach(function(obj){
+                var liElem = $("<li/>");
+                var anchorElem = $("<a/>");
+                anchorElem.attr("href", obj.FirstURL);
+                anchorElem.attr("target", "_blank");
+                anchorElem.text(obj.Text);
+                liElem.append(anchorElem);
+                $("#search-results").append(liElem);
+            })
+        }
+    </script>
+    <style>
+        .search-results-text{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</html>
