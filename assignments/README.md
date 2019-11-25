@@ -157,3 +157,16 @@ assignments/images/calculator-week05-day01
 2. Once the user types an answer in the textbox and clicks Submit, the app should check whether the answer is correct or not. Show a dialog window (prompt) depending up on the right/wrong answer.
 3. Also, once the page is loaded, a timer should be started from 30 seconds and go down till 0 second. Once the timer reaches 0, the user should be shown a message saying that Time is over! and he/she should not be able to submit an answer after that.
 4. For styling and layout, please use Bootstrap.
+
+## Week 06
+
+### Day 01 
+Use the below Ajax syntax to load the data of the cities (cities.json)
+$.ajax({
+                url: "https://api.jsonbin.io/b/5ddb7fe5040d843991f8a4e5",
+                headers: {"secret-key": "$2b$10$u3A2D8i3xZI9s1Bq/YihAuje8T/nq4C0ulejX8TgqV2OCY1rijESi"},
+                success: function(response){
+                    console.log("done");
+                }
+            });
+Create a Javascript program that searches cities of a state using AJAX. Then loop through the data to find the cities that belong to a state passed to the search function.
