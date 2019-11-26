@@ -170,3 +170,7 @@ $.ajax({
                 }
             });
 Create a Javascript program that searches cities of a state using AJAX. Then loop through the data to find the cities that belong to a state passed to the search function.
+
+### Day 02 
+
+images/book_search_week06
