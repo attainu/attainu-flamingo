@@ -95,3 +95,12 @@ Load the data and then write a Javascript function that takes a letter and finds
 ### Day 02 
 Write a Javascript program that removes duplicates from an array.
 For example, if the input array is `[1, 2, 2, 3, 4, 5, 6, 6, 7]`, the output of the program should be [1, 2, 3, 4, 5, 6, 7]
+
+### Day 03 
+Create two Javascript functions - `largest` and `smallest`.
+
+Both of them takes an array of numbers as an input.
+
+`largest` should return the largest number in the array.
+
+`smallest` should return the smallest number in the array.
