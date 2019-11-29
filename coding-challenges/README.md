@@ -104,3 +104,9 @@ Both of them takes an array of numbers as an input.
 `largest` should return the largest number in the array.
 
 `smallest` should return the smallest number in the array.
+
+### Day 04 
+Write a Javascript function that finds all the number pairs in an array whose sum is equal to a given number.
+For example, if `findPairs` is our number, here are some sample calls -
+`findPairs(10, [1, 2, 4, 5, 6, 10, 12])` will return `[4, 6]` as adding those two together produces 10.
+Remember, we are trying to find all pairs, which means set of two values.

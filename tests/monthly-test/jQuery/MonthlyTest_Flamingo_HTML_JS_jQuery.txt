@@ -1,0 +1,34 @@
+Create a signup form with the below details 
+    - Fullname
+        - minimum length of 3 characters 
+        - maximum length of 10 characters 
+        - It shouldn't contian any other characters than alphabets, space, dot 
+    - Email 
+        - Check if it's valid email (HTML5 validation doesn't work, use regular expression)        
+    - Mobile 
+        - Should be a number (use regular expression)
+        - Should contain exactly 10 digits 
+    - Submit Button 
+        - On click of submit button make a POST request to submit the details to the dummy URL 
+        - Render the user details in the table 
+
+Read the file `users.json` using GET request and render the values in the below table 
+
+Create a table with the list of users signed up 
+    - Each row should contain all the details above 
+    - There should be an action column which contains the below actions 
+        - View 
+            - On click of view button the details of the user has to be displayed just below the table with the format 
+                Your name is {NAME}
+                Your email is {EMAIL}
+                Your Mobile is {Mobile}
+            - You should use only one div to manipulate the user data on click 
+        - Delete 
+            - On click of delete button, you should ask for a confirmation whether to delete or not 
+            - Delete the user details from the list on confirmation and update the table accordingly 
+            
+Create a search box on top of the table and filter the students with the email given in the search box 
+    - Don't create any submit buttons, it should search in the list on pressing `Enter` 
+    - Update the table with the new results 
+
+*Use bootstrap for styling, If there is no usage of bootstrap we will not consider the design part for evalutaion*
