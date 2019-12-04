@@ -121,3 +121,18 @@ Input matrix
 1 1 1 1  // this row has maximum 1s
 0 0 0 0
 Output: 2
+
+### Day 02 
+Write a Javascript function that finds the missing numbers in an array of integers from 1 to N, where N being the largest number in the array.
+
+Some example inputs and outputs -
+
+findMissing( [1, 2, 4, 5, 6] ) should return [3] as 3 is the missing number in the series.
+findMissing( [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15] ) should return [8, 10] as both of them are missing the series.
+
+You can assume that the input array does not contain any duplicates. 
+
+### Day 03 
+Given a number, return the sum of digits of the number
+Input:  123
+Output: 6 (1+2+3)
