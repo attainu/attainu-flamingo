@@ -136,3 +136,12 @@ You can assume that the input array does not contain any duplicates.
 Given a number, return the sum of digits of the number
 Input:  123
 Output: 6 (1+2+3)
+
+### Day 04 
+Given an array of n distinct elements, the task is to find all elements in array which have at-least two greater elements than themselves.
+Input: [2, 8, 7, 1, 5]
+Output: 2 , 1,  5
+
+### Day 05 
+Write a Javascript function that takes two arrays as an input and calculate the number of elements that belong to both of the arrays.
+For example, given two arrays -let a =[5,2,8,9,4] and let b = [3,2,9,5] The function commonElements(a, b) should return 3 because 2, 5 and 9 are common to both of the arrays.

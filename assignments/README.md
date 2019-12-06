@@ -174,3 +174,22 @@ Create a Javascript program that searches cities of a state using AJAX. Then loo
 ### Day 02 
 
 images/book_search_week06
+
+### Day 04 
+Create an Express application with the following features -
+An express application with four routes that perform addition, subtraction, multiplication and division.
+The add route should take two url parameters and send back their sum.
+The sub route should take two url parameters and send back their difference.
+The mul route should take two url parameters and send back their product.
+The div route should take two url parameters and send back their division result.
+
+### Day 05 
+# ExpressJS CRUD
+
+Create an EXpressJS application that has routes for creating, adding, updating and deleting a person's contact information - Maintain the data in a JS array 
+
+Each entry should be maintained with below format 
+{
+    name: "Name",
+    phone: "phone-no"
+}
