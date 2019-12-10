@@ -175,6 +175,8 @@ Create a Javascript program that searches cities of a state using AJAX. Then loo
 
 images/book_search_week06
 
+## Week 07 
+
 ### Day 04 
 Create an Express application with the following features -
 An express application with four routes that perform addition, subtraction, multiplication and division.
