@@ -195,3 +195,17 @@ Each entry should be maintained with below format
     name: "Name",
     phone: "phone-no"
 }
+
+## Week 08 
+
+### Day 01 
+Create a REST API calculator using ExpressJS
+Create four routes in Express for add, sub, mul and div.
+Each route should take two POST data parameters - num1 and num2 in JSON format and do the arithmetic operation on them.
+Example output: For sum, the response should look like -
+{
+    "num1": 20
+    "num2": 50,
+    "result": 70
+}
+No need for UI. Everything can be tested using Postman or Insomnia.

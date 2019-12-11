@@ -145,3 +145,17 @@ Output: 2 , 1,  5
 ### Day 05 
 Write a Javascript function that takes two arrays as an input and calculate the number of elements that belong to both of the arrays.
 For example, given two arrays -let a =[5,2,8,9,4] and let b = [3,2,9,5] The function commonElements(a, b) should return 3 because 2, 5 and 9 are common to both of the arrays.
+
+## Week 08
+
+### Day 01 
+Write a Javascript function that checks if a string contains all unique characters. Return true if all the characters are unique or false if it contains duplicate characters.
+For example, ansal contains two a and hence the function should return false for it. arkesh contains no repeated character and hence the function should return true.
+You can treat small case and big case of same characters as different characters.
+
+### Day 02 
+Given an array of random numbers, Push all the zero’s of a given array to the end of the array. For example, if the given arrays is {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0}, it should be changed to {1, 9, 8, 4, 2, 7, 6, 0, 0, 0, 0}. The order of all other elements should be same.
+
+### Day 03 
+Create a JavaScript function that reads a file and search for a string in it.
+For example, if called like this-searchFile("file.txt", "Ansal"), it should return the line numbers and text in the file that contains the string "Ansal".
