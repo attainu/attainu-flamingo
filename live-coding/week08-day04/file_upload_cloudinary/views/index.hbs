@@ -1,0 +1,20 @@
+<html>
+    <body>
+        
+        <div>
+            <form action="/signup" method="POST" enctype="multipart/form-data">
+                <input type="text" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="file" name="image">
+                <input type="file" name="image">
+                <button type="submit">Signup</button>
+            </form>
+            <div>
+                {{#each gallery}}
+                    <img src="{{this.url}}" alt="{{this.original_filename}}">
+                {{/each}}
+            </div>
+        </div>
+    </body>
+</html>
+

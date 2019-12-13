@@ -159,3 +159,26 @@ Given an array of random numbers, Push all the zero’s of a given array to the 
 ### Day 03 
 Create a JavaScript function that reads a file and search for a string in it.
 For example, if called like this-searchFile("file.txt", "Ansal"), it should return the line numbers and text in the file that contains the string "Ansal".
+
+### Day 04 
+Coding challenge for the day -Given a distance n, please write a Javascript program that counts the total number of ways to cover the distance with 1, 2 and 3 steps.
+
+Some examples:
+Say n = 3
+1 step + 1 step + 1 step
+1 step + 2 step
+2 step + 1 step
+3 step
+
+So we got four steps out of 1, 2 and 3 steps.
+
+The output should be 4.
+
+Say n = 4
+1 step +  1 step + 1 step + 1 step
+1 step + 1 step + 2 step
+1 step + 2 step + 1 step
+1 step + 3 step
+2 step + 1 step + 1 step
+2 step + 2 step
+3 step + 1 step

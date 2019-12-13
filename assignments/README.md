@@ -198,7 +198,7 @@ Each entry should be maintained with below format
 
 ## Week 08 
 
-### Day 01 
+### Day 03 
 Create a REST API calculator using ExpressJS
 Create four routes in Express for add, sub, mul and div.
 Each route should take two POST data parameters - num1 and num2 in JSON format and do the arithmetic operation on them.
@@ -209,3 +209,12 @@ Example output: For sum, the response should look like -
     "result": 70
 }
 No need for UI. Everything can be tested using Postman or Insomnia.
+
+### Day 04 
+Create a team to play for indian cricket with playing 11
+There should be a form to add the details of all the 11 players
+Player Name 
+Player Age 
+Player Picture 
+Upload all the pictures in the cloudinary (in your account). As soon as the details are processed , add those details in the front-end. Use bootstrap to display each player in col-4, player image,  Name and age just below the image.
+You should be able to add maximum of 11 players. Form should reject if you try to add 12th player.

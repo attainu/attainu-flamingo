@@ -1,0 +1,18 @@
+{
+  "name": "handlebars-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.18.1",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "multiparty": "^4.2.1"
+  }
+}
