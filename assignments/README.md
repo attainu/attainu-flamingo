@@ -218,3 +218,10 @@ Player Age
 Player Picture 
 Upload all the pictures in the cloudinary (in your account). As soon as the details are processed , add those details in the front-end. Use bootstrap to display each player in col-4, player image,  Name and age just below the image.
 You should be able to add maximum of 11 players. Form should reject if you try to add 12th player.
+
+### Day 05 
+1. Login page 
+2. dashboard (similar to the screenshot)
+Dashboard should be accessible to only logged in users, if the user is not authenticated, redirect them to login. Also, integrate the express session.
+
+images/book_search_express_week08_day05.png
