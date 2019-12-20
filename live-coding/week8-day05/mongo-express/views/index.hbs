@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h1>Singup Form </h1>
+                <form action="signup" method="POST" class="form-group mt-4">
+                    <input type="text" name="fullname" placeholder="Full name" class="form-control mt-2">
+                    <input type="text" name="email" placeholder="Email" class="form-control mt-2">
+                    <button class="btn btn-primary mt-2">Singup</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                <input type="checkbox" onchange="toggleCheckboxes(event)">
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Email 
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each users}}
+                            <tr>
+                                <td>
+                                    <input type="checkbox" value="{{_id}}" class="checkbox">
+                                </td>
+                                <td>
+                                    {{name}}
+                                </td>
+                                <td>
+                                    {{email}}
+                                </td>
+                            </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <button class="btn btn-danger" onclick="deleteSelected()">Delete selected</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/script.js"></script>
+</html>
