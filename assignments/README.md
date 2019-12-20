@@ -225,3 +225,7 @@ You should be able to add maximum of 11 players. Form should reject if you try t
 Dashboard should be accessible to only logged in users, if the user is not authenticated, redirect them to login. Also, integrate the express session.
 
 images/book_search_express_week08_day05.png
+
+## Week 09 
+### Day 01 
+Create a NodeJS program that reads books.json and put the read data in MongoDB.
