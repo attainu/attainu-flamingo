@@ -228,3 +228,13 @@ Examples
 removeSmallest([1,2,3,4,5]) = [2,3,4,5]
 removeSmallest([5,3,2,1,4]) = [5,3,2,4]
 removeSmallest([2,2,1,2,1]) = [2,2,2,1] 
+
+## Week 10 
+
+### Day 01 
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+If the function is passed a valid PIN string, return true, else return false.
+eg:
+validatePIN("1234") === true
+validatePIN("12345") === false
+validatePIN("a234") === false

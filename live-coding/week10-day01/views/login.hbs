@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h1>Login </h1>
+                <form action="login" method="POST" class="form-group mt-4">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email" class="form-control mt-2">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        {{#if invalid}}
+                            <div class="alert alert-danger">
+                                Invalid credentials
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary mt-2">Login</button>
+                    </div>
+                </form>
+                <div>
+                    Doesn't have an account? 
+                    <a href="signup">Signup</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h1>Singup Form </h1>
+                <form action="signup" method="POST" class="form-group mt-4">
+                    <div class="form-group">
+                        <label for="name">Fullname</label>
+                        <input type="text" name="fullname" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email" class="form-control mt-2">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        {{#if mismatch}}
+                            <div class="alert alert-danger">
+                                Your password is mismatching
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary mt-2">Singup</button>
+                    </div>
+                </form>
+                <div>
+                    Already a member? 
+                    <a href="login">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

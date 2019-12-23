@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div>
+                    <a href="create">Create Post</a>
+                </div>
+                <div>
+                    <a href="/">View Posts</a>
+                </div>
+                <div>
+                    <a href="logout">Logout</a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h1>Add post </h1>
+                {{#if postCreated}}
+                    <div class="alert alert-success">
+                        You have successfully created the post!                    
+                    </div>
+                {{/if}}
+                <form action="create" method="POST" class="form-group mt-4">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" class="form-control" id="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary mt-2">Create post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
