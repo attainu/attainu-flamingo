@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Tickets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-md-4 offset-md-8">
+                <h1>Movie Tickets</h1>
+            </div>
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="offset-md-3 col-md-5">
+                <h2>Signup</h2>
+                <hr>
+                <form action="/signup" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your email</label>
+                        <input type="text" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Your password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-info">Signup</button>
+                    Already got an account? Please <a href="/login">login</a>.
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ansal's Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-md-4 offset-md-8">
+                <h2>Movie Tickets</h2>
+            </div>
+            <p>
+                Hello {{loggedInUser.name}}! 
+                <a href="/logout">Logout</a>
+            </p>
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <!-- Movie List -->
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h3>Available Movies</h3>
+                <hr>
+                <ul>
+                    {{#each movies}}
+                    <li>{{this.name}} <a href="/book/{{_id}}">Book</a></li>
+                    {{/each}}
+                </ul>
+
+                <h3>Recent Bookings</h3>
+                <hr>
+                <ul>
+                    {{#each bookings}}
+                    <li>{{userName}} just booked {{movieName}}</li> View <a href="/profile/{{userId}}">Ansal's profile</a>.
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
