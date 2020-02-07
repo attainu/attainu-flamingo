@@ -1,0 +1,29 @@
+Assignment -
+
+The classic To-Do application where a user can write down all the things he wants to accomplish.
+
+User Stories -
+1. User can see an input field where he can type in a to-do item, along with a deadline for the to-do.
+2. By pressing enter (or a button), the User can submit the to-do item and can see that being added to a list of to-do’s
+3. User can mark a to-do as completed
+4. User can remove a to-do item by pressing on a button (or on the to-do item itself)
+5. User can edit a to-do
+6. There should be a dropdown next to the input with three options, "ALL", "COMPLETED", "ACTIVE"
+User can see a list with all the completed to-do’s.
+User can see a list with all the active to-do’s
+User can see a list with all the to-do’s
+User can see the date when he created the to-do
+7. The completed to-do's should be displayed in green color, the active ones in red colour.
+
+Read About -
+1. What is Redux? What is it used for?
+2. Is redux related to react, or is it independent? With which all other frameworks can we use redux?
+3. How does redux work? How does it connect with or work with react?
+4. What are pure functions? What is a reducer?
+5. What are actions?
+https://egghead.io/courses/getting-started-with-redux
+
+Read About react some more, get your basics strengthened through this 
+https://egghead.io/courses/the-beginner-s-guide-to-react
+
+P.S - Both courses are free and open to everyone
