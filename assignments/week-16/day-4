@@ -1,0 +1,15 @@
+ASSIGNMENT:
+
+# Shopping Cart Assignment
+
+1. Create a static (with static data) web app using React.
+2. Add a static header section
+3. The app will contain 2 vertical sections (columns).
+4. The left column will have a list of items with:
+   1. item name
+   2. cost
+   3. Add to cart button
+5. The right column will contain the dynamic cart which will contain the list of added items and the total cost of all cart items.
+6. In the right column, against every item, there should be a button to remove the item from cart.
+9. Both left(item-list) and right(cart) sections should be individually scrollable if the list of items in either exceeds the viewport.
+10. A checkout button at the bottom of the cart which should clear the cart.
