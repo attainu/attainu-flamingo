@@ -1,0 +1,9 @@
+1. Create an application which takes user name, email and city
+2. User name and email fields should be in one component
+3. User city should be in another component
+4. Both the above components are wrapped inside another component whose state the above two components will change upon typing
+5. The wrapper component holding both the name-email fields component and the city field component should have a submit button
+6. On click of submit, the data should go to the App Component and get added to the list of users
+7. The list of users should be sent to the component showing list of users
+8. They have to maintain a list of Unique user cities in the App component, which will be sent to another "cities" component
+9. Upon addition of a user, the user city, if not already present inside the list of unique cities, should be pushed inside that list
