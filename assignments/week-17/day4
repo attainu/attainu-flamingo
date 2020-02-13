@@ -1,0 +1,29 @@
+@channel 
+Today's assignment
+Create an application -
+
+Home page route "/"
+Three Links in the header
+Users
+Products
+Orders
+
+Users link click - route - "/users"
+List of users
+Click on user - route - "users/:username"
+
+Users link click - route - "/products"
+List of products
+Click on product - route - "products/:productname"
+
+Users link click - route - "/orders"
+List of orders
+Click on order - route - "orders/:orderID"
+
+TO READ -
+react-router browser router
+route
+link
+
+Resources links -
+https://reacttraining.com/react-router/web/guides/quick-start
