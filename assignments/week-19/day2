@@ -1,1 +1,19 @@
+Understand the data, divide into tables so as to achieve modularity and one-source-of-truth, create ER diagram and 
+then create tables for the following data set
 
+Song name
+Singer name
+Song length
+Song release year
+Song awards
+Song Movie Name
+Song genre
+Song language
+Singer Age
+Singer Awards
+Singer Experience of singing
+Is singer classically trained?
+Singer gender
+Singer native language
+
+P.S - You can use lucidchart.com to create ER diagrams
