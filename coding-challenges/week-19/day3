@@ -1,0 +1,15 @@
+1. Create a table which should have the following things in two different ways
+
+- Student ID - Primary key
+- Student Name - Can't be null
+- Student Age - Can't be null
+- Parent Name - Can be null - Foreign key, referencing parent table
+- Parent Phone Number - Can be null
+- Student roll number - Can't be null - Must have default value of 0
+- Student DOB - Can't be null - Must have default value of 01-01-2000
+- Student Class - Can be null - Foreign key, referencing class table
+
+a. Create the table with the keys while creating
+b. Create the same table again but this time with no columns, 
+then add the columns to the table later on as part of updating the table
+
