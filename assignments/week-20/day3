@@ -1,0 +1,39 @@
+
+1. Generate 100 rows of data from Mockaroo
+
+Company Table - Columns
+1. Employee Name
+2. Employee Gender
+3. Employee Department
+4. Employee Salary - Min. Salary 1lakh, Max salary 15lakh
+5. Company office City, where the employee works
+
+Find
+1. Number of people in every department
+2. Number of Males in every department
+3. Number of Females in every department
+4. Total Salary of the employees in one department ex. Finance department 10 employees, total salary = 50lakhs
+5. Total Salary of the male employees in one department ex. Finance department 5 employees, total salary = 25lakhs
+6. Total Salary of the female employees in one department ex. Finance department 5 employees, total salary = 25lakhs
+7. Total number of cities in which the office is there
+8. Return the entries from 31-50 from the table
+9. Return all the entries after 50, where the salary is more than 5 lakhs, and the department is “SALES”
+10. The average salary of every department in every city
+
+
+JOINS
+
+1. Create two tables - Singers and Songs
+2. Both the tables should have 10 entries
+3. Singers table columns - ID, Singer Name, Song Name, Song year
+4. Songs table columns - ID, Song Name, Song Length
+5. Some singers have songs which do not have an entry in the songs table
+
+Write queries to find
+1. All singers from the singers table who have an entry in the songs table (common data between both tables)
+2. Get all entries from singers table, and common entries from songs
+3. Get all entries from songs table, and common entries from singers
+4. Get all the entries from both the tables
+5. Get all the entries from the singers table which are not present in the songs (rows exclusive to singers table)
+6. Get all the entries from the songs table which are not present in the singers (rows exclusive to songs table)
+7. Get all the unique entries from both the tables (uncommon data)
