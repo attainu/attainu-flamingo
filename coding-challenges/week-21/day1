@@ -16,6 +16,9 @@ you'll get from the response for the residents, and print the names of all the f
 
 You have to finish both the exercises
 Output should be an HTML page with a UL of films names
+Do both the exercises using 2 approaches each
+1. Do it once using the Promises
+2. Do it second time using ASYNC-AWAIT
 
 Demo responses -
 https://swapi.co/api/planets/2/
