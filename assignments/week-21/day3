@@ -1,0 +1,4 @@
+Assignment-
+Set up a react project, without create-react-app, with linting setup using eslint and the airbnb style guide for react, 
+the linting rules should be enforced in all files with .js extension, for all the JSX in all the files too. 
+The solvable problems in the file, including indentation and syntax errors should get solved upon saving the file.
