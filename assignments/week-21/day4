@@ -1,0 +1,14 @@
+Study the following documentation
+https://developers.themoviedb.org/3/getting-started/introduction
+
+and build an app which looks like 
+https://www.lucidchart.com/invitations/accept/b3158075-b007-47db-ac2f-c7ac85e674ac
+
+1. Read the documentation and see as to how to fetch movies and tv shows
+2. Show two tabs on the screen, one for movies, one for tvshows, by default the movies tab should be selected and the page
+populated with movies
+3. On click of load more, the next set of movies should be fetched and shown on the screen
+4. On click of tv shows, similar thing should happen for tv shows
+5. The url on the first page should have movies when "movies" page is active and "tvshows" when that is active
+6. On click of either a movie or a tv show, go to a new page where you will show details about that movie or tvshow
+7. The url on that page should be like it is given in the lucidchart image
