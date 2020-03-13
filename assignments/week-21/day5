@@ -1,0 +1,13 @@
+Create a react project without Create-React-App which should have the following
+
+1. An index.html file
+2. An index.js file - where you will pick the root element and render the App
+3. An app.js file - rendering some JSX
+4. A header.js file - rendering some JSX
+5. A footer.js file - rendering some JSX
+6. Multiple css files(one for each component)
+
+The header and footer component must be imported and shown inside the App component
+
+Use Webpack to setup the project, setup appropriate loaders for JS and CSS
+Research about what loader to use and setup to convert JSX and make the app functional
