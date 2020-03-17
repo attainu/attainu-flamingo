@@ -1,0 +1,51 @@
+1. Write a function which works in the following way
+
+add(2,3,4,5...) // sum of all numbers
+add(2)(3)(4)(5)(...) // sum of all numbers
+
+2. Write a funcition to print the following
+var arr = [1,2,3,4,5];
+for this array
+a. Print all at once, but after 5 seconds
+i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+
+b. Print each one after 5 seconds
+i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+
+3. Create an html page, paste the following html
+<p id="help">Helpful notes will appear here</p>
+<p>E-mail: <input type="text" id="email" name="email"></p>
+<p>Name: <input type="text" id="name" name="name"></p>
+<p>Age: <input type="text" id="age" name="age"></p>
+
+And paste this in a script tag
+function showHelp(help) {
+  document.getElementById('help').innerHTML = help;
+}
+
+function setupHelp() {
+  var helpText = [
+      {'id': 'email', 'help': 'Your e-mail address'},
+      {'id': 'name', 'help': 'Your full name'},
+      {'id': 'age', 'help': 'Your age (you must be over 16)'}
+    ];
+
+  for (var i = 0; i < helpText.length; i++) {
+    var item = helpText[i];
+    document.getElementById(item.id).onfocus = function() {
+      showHelp(item.help);
+    }
+  }
+}
+
+setupHelp();
+
+-- Now whenever you click on any of the inputs, the corresponding title should be shown in the paragraph tag, but it's not happening, please fix the code
