@@ -1,0 +1,13 @@
+Create a medical application where someone can come and book
+
+1. HOME CARE services - NURSE, PHYSIOTHERAPIST, COOK
+2. CONCIERGE services - AMBULANCE, HEARSE etc
+3. MEDICAL EQUIPMENT services - OXYGEN CYLINDER, PACE MAKER, WHEELCHAIR
+
+There are to be shown in tabs, 3 tabs on the page, at the top, on click of which the services will be shown
+
+P.S - It would be great if you could pick corresponding images or icons for the services from google and add them
+
+Each of one these services, ex. Nurse, Ambulance, Oxygen Cylinder, will have their own starting and closing time in a day, and charge rates per hour, and you can book them for a certain number of hours, on a certain day, and at the bottom, you will get the total price of all the services you've booked.
+
+Create a react application for this project, setup with webpack, using SCSS to style, and including unit test cases, integration test cases using JEST, and end to end test cases using PUPPETEER
