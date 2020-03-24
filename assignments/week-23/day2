@@ -1,0 +1,17 @@
+Create Apis to
+1. Employee
+  1. Add an employee to a department
+  2. Edit an employee
+  3. Delete an employee
+  4. Get a list of all employees
+  5. Get single employee
+  6. Get all employee of one department
+
+2. Departments
+  1. Add a department
+  2. Edit a department
+  3. Delete a department
+  4. Get a list of all departments
+  
+Also
+1. A join of all employees and departments
