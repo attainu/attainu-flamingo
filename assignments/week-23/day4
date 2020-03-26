@@ -1,0 +1,35 @@
+Create a backend for an application holding the Data
+
+Song name
+Singer name
+Song length
+Song release year
+Song awards
+Song Movie Name
+Song genre
+Song language
+Singer Age
+Singer Awards
+Singer Experience of singing
+Is singer classically trained?
+Singer gender
+Singer native language
+
+create tables for
+1. Songs
+2. Singers
+3. Movies
+4. Awards
+5. Genres
+6. Languages
+Use foreign keys to map data from one table into another
+
+APIS -
+1. CRUD for songs
+2. CRUD for Singers
+3. CRUD for movies
+4. CRUD for awards
+5. CRUD for genres
+6. CRUD for languages
+
+Create an express application using express-generator
